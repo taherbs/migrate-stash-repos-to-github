@@ -1,0 +1,5 @@
+configparser
+urllib3
+PyYAML
+requests
+termcolor

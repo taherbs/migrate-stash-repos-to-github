@@ -1,0 +1,13 @@
+work_dir: /tmp # temporary working dir
+source_stash: # stash configuration (source)
+  url:        https://yourstash.company.net # Stash base URL
+  project:    project_name # Name of the project under which the repositories are in Stash
+  repos_to_migrate: # Repository to mirror
+    - repo_1_name
+    - repo_2_name
+destination_github: # git configuration (destination)
+  url:        https://github.com # base URL for the git website
+  access_token: your_personal_access_token # github personal access token (create/push repos privileges are required) 
+  api_url:    https://api.github.com # github api URL
+  timeout:    10 # number of seconds before timing out attempting to connect/retrieve results
+  org:        your_github_org_name # name of the project under which the repositories live

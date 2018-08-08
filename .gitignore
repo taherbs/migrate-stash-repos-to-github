@@ -1,0 +1,15 @@
+# ignore swap files for vi/vim
+*.swp
+*.swo
+
+# ignore mac env file
+.DS_Store
+
+# ignore virtualenv
+.env/*
+
+# ignore python temp files
+*.pyc
+
+# ignore real settings file
+config/settings.yml
