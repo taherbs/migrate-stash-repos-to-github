@@ -1,4 +1,5 @@
 # Migrate Stash Repos to Github
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/taherbs/migrate-stash-repos-to-github/master/LICENSE)
 
 The job will migrate atlassian stash repos to github org repos.
 
